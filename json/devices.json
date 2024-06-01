@@ -1,0 +1,20 @@
+{
+    "codename": {
+        "model": "Device Model, Device Model, Device Model",
+        "codename": "codename",
+        "link": "https://varia.org.cn/get/codename",
+        "photo": "https://api.varia.org.cn/"
+    },
+    "opkona": {
+        "model": "OnePlus 8, OnePlus 8T, OnePlus 8 Pro, OnePlus 9R",
+        "codename": "opkona",
+        "link": "https://varia.org.cn/get/opkona",
+        "photo": "https://api.varia.org.cn/"
+    },
+    "mars": {
+        "model": "Xiaomi 11",
+        "codename": "mars",
+        "link": "https://varia.org.cn/get/mars",
+        "photo": "https://api.varia.org.cn/"
+    }
+}

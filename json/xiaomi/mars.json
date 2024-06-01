@@ -1,0 +1,17 @@
+{
+    "model": "Xiaomi 11",
+    "codename": "mars",
+    "variation_version": "0.1",
+    "variation_codename": "More",
+    "android_version": "14",
+    "android_codename": "UpsideDownCake",
+    "build_time": "May 15, 2024",
+    "status": "Active",
+    "update_time": "monthly",
+    "img_link": "https://get.varia.org.cn/pd/local/opkona/varia-More-alpha-opkona-20240513-image.zip",
+    "ota_link": "https://get.varia.org.cn/pd/local/opkona",
+    "maintainer": "William",
+    "avatar": "https://avatars.githubusercontent.com/u/69845256?v=4",
+    "maintainer_id": "WilliamSado",
+    "github_url": "https://github.com/WilliamSado/"
+}
