@@ -30,7 +30,7 @@ And the punctuation and capitalization formatting should not be changed.
 }
 ```
 
-[*./json/devices.json*](https://github.com/Variation-UI/website-device-info/json/devices.json)
+[*./json/devices.json*](https://github.com/Variation-UI/website-device-info/blob/main/json/devices.json)
 ```json
 "codename": {
         "model": "Device Model, Device Model, Device Model",
@@ -44,3 +44,4 @@ And the punctuation and capitalization formatting should not be changed.
 `$userName` **GitHub** User ID
 `$imageLink` **FASTBOOT Mode** restore img file name on the servers
 `$otaLink` ZIP file name on the servers for updating system in **RECOVERY Mode**
+
