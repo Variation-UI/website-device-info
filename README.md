@@ -14,6 +14,7 @@ And the punctuation and capitalization formatting should not be changed.
 {
     "model": "Device Model, Device Model, Device Model",
     "codename": "codename",
+    "device_photo": "$devicePhoto",
     "variation_version": "0.1",
     "variation_codename": "More",
     "android_version": "14",
@@ -40,8 +41,10 @@ And the punctuation and capitalization formatting should not be changed.
     }
 ```
  
-`$githubDisplayName` **GitHub** Display Name  
-`$userName` **GitHub** User ID
-`$imageLink` **FASTBOOT Mode** restore img file name on the servers
-`$otaLink` ZIP file name on the servers for updating system in **RECOVERY Mode**
+`$githubDisplayName` **GitHub** Display Name;  
+`$userName` **GitHub** User ID;  
+`$devicePhoto` A rendering of the appearence of the device for display;
+`$imageLink` **FASTBOOT Mode** restore img file name on the servers;
+`$otaLink` ZIP file name on the servers for updating system in **RECOVERY Mode**.
+
 

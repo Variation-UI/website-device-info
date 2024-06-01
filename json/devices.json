@@ -9,7 +9,7 @@
         "model": "OnePlus 8, OnePlus 8T, OnePlus 8 Pro, OnePlus 9R",
         "codename": "opkona",
         "link": "https://varia.org.cn/get/opkona",
-        "photo": "https://api.varia.org.cn/"
+        "photo": "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/photo/opkona.png"
     },
     "mars": {
         "model": "Xiaomi 11",

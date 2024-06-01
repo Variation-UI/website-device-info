@@ -1,6 +1,7 @@
 {
     "model": "OnePlus 8, OnePlus 8T, OnePlus 8 Pro, OnePlus 9R",
     "codename": "opkona",
+    "device_photo": "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/photo/opkona.png",
     "variation_version": "0.1",
     "variation_codename": "More",
     "android_version": "14",
