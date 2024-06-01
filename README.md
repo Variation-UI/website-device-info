@@ -21,6 +21,7 @@ And the punctuation and capitalization formatting should not be changed.
     "android_codename": "UpsideDownCake",
     "build_time": "May 15, 2024",
     "status": "Active / NoActive",
+    "status_icon": "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/source/$statusIcon",
     "update_time": "monthly",
     "img_link": "https://get.varia.org.cn/pd/local/$imageLink",
     "ota_link": "https://get.varia.org.cn/pd/local/$otaLink",
@@ -30,6 +31,9 @@ And the punctuation and capitalization formatting should not be changed.
     "github_url": "https://github.com/$username/"
 }
 ```
+
+`$devicePhoto` A rendering of the appearence of the device for display;
+`$statusIcon` The following content is optional: **`active.png`** / **`notactive.png`**.
 
 [*./json/devices.json*](https://github.com/Variation-UI/website-device-info/blob/main/json/devices.json)
 ```json
@@ -43,7 +47,6 @@ And the punctuation and capitalization formatting should not be changed.
  
 `$githubDisplayName` **GitHub** Display Name;  
 `$userName` **GitHub** User ID;  
-`$devicePhoto` A rendering of the appearence of the device for display;
 `$imageLink` **FASTBOOT Mode** restore img file name on the servers;
 `$otaLink` ZIP file name on the servers for updating system in **RECOVERY Mode**.
 
