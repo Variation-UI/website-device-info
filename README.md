@@ -36,8 +36,8 @@ The file name must be codename.
     "avatar": "https://avatars.githubusercontent.com/...",
     "maintainer": "$userName",
     "github_url": "https://github.com/$username/",
-    "changelog": {
-        "Last": "<li>Merged January 2024 security patches.<li>Fix Side slider and<br>Fix FingerPrint.",
+    "changelog_last": "<li>Merged January 2024 security patches.<li>Fix Side slider and<br>Fix FingerPrint.",
+    "changelog_history": {
         "$date": "<li>Merged January 2024 security patches.<li>Fix Side slider and<br>Fix FingerPrint."
     }
 }

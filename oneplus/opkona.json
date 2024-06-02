@@ -17,7 +17,8 @@
     "avatar": "https://avatars.githubusercontent.com/u/69845256?v=4",
     "maintainer": "wzwzx",
     "github_url": "https://github.com/wzwzx/",
-    "changelog": {
-        "Last": "<li>Merged January 2024 security patches.<li>Fix Side slider and<br>Fix FingerPrint."
+    "changelog_last": "<li>Merged January 2024 security patches.<li>Fix Side slider and<br>Fix FingerPrint.",
+    "changelog_history": {
+        "MayTF": "<li>Merged January 2024 security patches.<li>Fix Side slider and<br>Fix FingerPrint."
     }
 }
