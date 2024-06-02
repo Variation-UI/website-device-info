@@ -13,7 +13,7 @@ CHANGELOG MarkDown
 ```html
 const requestURL = "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/json/BRAND/CODENAME.json";
 ```
-The `requestURL` is below the **`<head>`** tag on the corresponding [**device** (Ues OPKONA as an example)](varia.org.cn/get/opkona/) page, where you should modify the link to the corresponding raw link, rather than importing it again.
+The `requestURL` is below the **`<head>`** tag on the corresponding [**device** (Ues OPKONA as an example)](https://varia.org.cn/get/opkona/) page, where you should modify the link to the corresponding raw link, rather than importing it again.
 
 
 ## DEVICE INFO Json
@@ -42,7 +42,7 @@ The file name must be codename.
     "avatar": "https://avatars.githubusercontent.com/...",
     "maintainer": "$userName",
     "github_url": "https://github.com/$username/",
-    "changelog_page_link": ""
+    "changelog_page_link": "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/markdown/BRAND/CODENAME/DATE.html"
 }
 ```
 `$md5` MD5 Key content;  
