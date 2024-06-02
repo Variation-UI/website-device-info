@@ -8,15 +8,9 @@ const requestURL = "https://raw.githubusercontent.com/Variation-UI/website-devic
 ```
 The `requestURL` is below the **`<head>`** tag on the corresponding [**device** (Ues OPKONA as an example)](varia.org.cn/get/opkona/) page, where you should modify the link to the corresponding raw link, rather than importing it again.
 
-CHANGELOG MarkDown
+## Json files specification
 
-```html
-const requestURL = "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/json/BRAND/CODENAME.json";
-```
-The `requestURL` is below the **`<head>`** tag on the corresponding [**device** (Ues OPKONA as an example)](https://varia.org.cn/get/opkona/) page, where you should modify the link to the corresponding raw link, rather than importing it again.
-
-
-## DEVICE INFO Json
+### DEVICE INFO Json
 Please edit the content according to the format in the box.  
 And the punctuation and capitalization formatting should not be changed.
 
@@ -42,7 +36,7 @@ The file name must be codename.
     "avatar": "https://avatars.githubusercontent.com/...",
     "maintainer": "$userName",
     "github_url": "https://github.com/$username/",
-    "changelog_page_link": "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/markdown/BRAND/CODENAME/DATE.html"
+    "changelog_page_link": "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/changelog/BRAND/CODENAME/DATE.json"
 }
 ```
 `$md5` MD5 Key content;  
@@ -50,7 +44,7 @@ The file name must be codename.
 `$status` The following content is optional: **`Active`** / **`Not Active`**;
 `$statusIcon` The following content is optional: **`active.svg`** / **`notactive.svg`**.
 
-[*./json/devices.json*](https://github.com/Variation-UI/website-device-info/blob/main/json/devices.json)
+[*./device/devices.json*](https://github.com/Variation-UI/website-device-info/blob/main/device/devices.json)
 ```json
 "codename": {
         "model": "Device Model, Device Model, Device Model",
@@ -64,12 +58,19 @@ The file name must be codename.
 `$imageLink` **FASTBOOT Mode** restore img file name on the servers;
 `$otaLink` ZIP file name on the servers for updating system in **RECOVERY Mode**.
 
-## CHANGELOG MarkDown
+### CHANGELOG Json
 
-Edit your markdown text in `<textarea>`
+```json
+{
+    "Date": "May 15, 2024",
+    "Bugs": "None",
+    "Security": "Merged January 2024 security patches",
+    "OnePlus_Features": "Fix Side slider, Fix FingerPrint",
+    "Xiaomi_Features": "None",
+    "System": "None",
+    "App": "None"
+}
+```
 
 > [!IMPORTANT]
-> incorrect indentation will result in incorrect parsing
-
-> [!CAUTION]
-> You should not add tables to markdown documents, as this will cause the document to render incorrectly
+> The items that are not supports or updated by the corresponding device must be "None".
