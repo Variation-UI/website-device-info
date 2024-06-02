@@ -1,11 +1,11 @@
 Device Information JSON Files for Webiste.
 
 ## HOW TO USE?
-Device Info Json
-
+### Request JSON file
 ```javascript
 const requestURL = "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/json/BRAND/CODENAME.json";
 ```
+
 The `requestURL` is below the **`<head>`** tag on the corresponding [**device** (Ues OPKONA as an example)](varia.org.cn/get/opkona/) page, where you should modify the link to the corresponding raw link, rather than importing it again.
 
 ## Json files specification
@@ -36,13 +36,22 @@ The file name must be codename.
     "avatar": "https://avatars.githubusercontent.com/...",
     "maintainer": "$userName",
     "github_url": "https://github.com/$username/",
-    "changelog_page_link": "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/changelog/BRAND/CODENAME/DATE.json"
+    "changelog": {
+        "Last": "<li>Merged January 2024 security patches.<li>Fix Side slider and<br>Fix FingerPrint.",
+        "$date": "<li>Merged January 2024 security patches.<li>Fix Side slider and<br>Fix FingerPrint."
+    }
 }
 ```
 `$md5` MD5 Key content;  
 `$devicePhoto` A rendering of the appearence of the device for display;
 `$status` The following content is optional: **`Active`** / **`Not Active`**;
 `$statusIcon` The following content is optional: **`active.svg`** / **`notactive.svg`**.
+`$date` Release Date, Format is `Abbreviated month name + Abbreviated year first letter of English`, like: **`May,2024 -> MayTwentyFour -> MayTF`**.
+
+The latest update log entry must be **`Last`**, and the rest should be the `$date`, although history update logs are not show on the website, but you should still keep them.
+
+> [!IMPORTANT]
+> Must add <br> when wrapping a line and add <li> before each line.
 
 [*./device/devices.json*](https://github.com/Variation-UI/website-device-info/blob/main/device/devices.json)
 ```json
@@ -57,15 +66,3 @@ The file name must be codename.
 `$userName` **GitHub** User ID;  
 `$imageLink` **FASTBOOT Mode** restore img file name on the servers;
 `$otaLink` ZIP file name on the servers for updating system in **RECOVERY Mode**.
-
-### CHANGELOG Json
-
-```json
-{
-    "$DATE": "<li>Merged January 2024 security patches.<li>Fix Side slider and<br>Fix FingerPrint."
-}
-```
-`$DATE` Release Date.
-
-> [!IMPORTANT]
-> Must add <br> when wrapping a line and add <li> before each line.
