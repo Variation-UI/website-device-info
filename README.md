@@ -51,7 +51,7 @@ The file name must be codename.
 The latest update log entry must be **`Last`**, and the rest should be the `$date`, although history update logs are not show on the website, but you should still keep them.
 
 > [!IMPORTANT]
-> Must add <br> when wrapping a line and add <li> before each line.
+> Must add <br> when wrapping a line.
 
 [*./device/devices.json*](https://github.com/Variation-UI/website-device-info/blob/main/device/devices.json)
 ```json
