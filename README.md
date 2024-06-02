@@ -26,6 +26,7 @@ And the punctuation and capitalization formatting should not be changed.
     "img_link": "https://get.varia.org.cn/pd/local/$imageLink",
     "ota_link": "https://get.varia.org.cn/pd/local/$otaLink",
     "img_md5": "$md5",
+    "img_size": "1.34GB",
     "avatar": "https://avatars.githubusercontent.com/...",
     "maintainer": "$userName",
     "github_url": "https://github.com/$username/"
