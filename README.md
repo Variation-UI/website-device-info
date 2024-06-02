@@ -62,15 +62,10 @@ The file name must be codename.
 
 ```json
 {
-    "Date": "May 15, 2024",
-    "Bugs": "None",
-    "Security": "Merged January 2024 security patches",
-    "OnePlus_Features": "Fix Side slider, Fix FingerPrint",
-    "Xiaomi_Features": "None",
-    "System": "None",
-    "App": "None"
+    "$DATE": "<li>Merged January 2024 security patches.<li>Fix Side slider and<br>Fix FingerPrint."
 }
 ```
+`$DATE` Release Date.
 
 > [!IMPORTANT]
-> The items that are not supports or updated by the corresponding device must be "None".
+> Must add <br> when wrapping a line and add <li> before each line.
