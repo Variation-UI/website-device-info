@@ -8,12 +8,12 @@
     "android_codename": "UpsideDownCake",
     "build_time": "May 15, 2024",
     "status": "Active",
-    "status_icon": "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/source/active.png",
+    "status_icon": "../source/get/active.svg",
     "update_time": "monthly",
     "img_link": "https://get.varia.org.cn/pd/local/opkona/varia-More-alpha-opkona-20240513-image.zip",
     "ota_link": "https://get.varia.org.cn/pd/local/opkona",
-    "maintainer": "Diq Xia",
+    "img_md5": "$md5",
     "avatar": "https://avatars.githubusercontent.com/u/69845256?v=4",
-    "maintainer_id": "wzwzx",
-    "github_url": "https://api.github.com/wzwzx/"
+    "maintainer": "wzwzx",
+    "github_url": "https://github.com/wzwzx/"
 }

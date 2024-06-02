@@ -20,20 +20,21 @@ And the punctuation and capitalization formatting should not be changed.
     "android_version": "14",
     "android_codename": "UpsideDownCake",
     "build_time": "May 15, 2024",
-    "status": "Active / NoActive",
-    "status_icon": "https://raw.githubusercontent.com/Variation-UI/website-device-info/main/source/$statusIcon",
+    "status": "$status",
+    "status_icon": "../source/get/$statusIcon",
     "update_time": "monthly",
     "img_link": "https://get.varia.org.cn/pd/local/$imageLink",
     "ota_link": "https://get.varia.org.cn/pd/local/$otaLink",
-    "maintainer": "$githubDisplayName",
+    "img_md5": "$md5",
     "avatar": "https://avatars.githubusercontent.com/...",
-    "maintainer_id": "$userName",
+    "maintainer": "$userName",
     "github_url": "https://github.com/$username/"
 }
 ```
-
+`$md5` MD5 Key content;  
 `$devicePhoto` A rendering of the appearence of the device for display;
-`$statusIcon` The following content is optional: **`active.png`** / **`notactive.png`**.
+`$status` The following content is optional: **`Active`** / **`Not Active`**;
+`$statusIcon` The following content is optional: **`active.svg`** / **`notactive.svg`**.
 
 [*./json/devices.json*](https://github.com/Variation-UI/website-device-info/blob/main/json/devices.json)
 ```json
@@ -45,7 +46,6 @@ And the punctuation and capitalization formatting should not be changed.
     }
 ```
  
-`$githubDisplayName` **GitHub** Display Name;  
 `$userName` **GitHub** User ID;  
 `$imageLink` **FASTBOOT Mode** restore img file name on the servers;
 `$otaLink` ZIP file name on the servers for updating system in **RECOVERY Mode**.
