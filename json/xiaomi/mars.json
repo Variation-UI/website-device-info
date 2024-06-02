@@ -8,7 +8,7 @@
     "android_codename": "UpsideDownCake",
     "build_time": "May 15, 2024",
     "status": "Active",
-    "status_icon": "../source/get/notactive.svg",
+    "status_icon": "../sources/get/notactive.svg",
     "update_time": "monthly",
     "img_link": "https://get.varia.org.cn/pd/local/opkona/varia-More-alpha-opkona-20240513-image.zip",
     "ota_link": "https://get.varia.org.cn/pd/local/opkona",

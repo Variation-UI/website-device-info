@@ -21,7 +21,7 @@ And the punctuation and capitalization formatting should not be changed.
     "android_codename": "UpsideDownCake",
     "build_time": "May 15, 2024",
     "status": "$status",
-    "status_icon": "../source/get/$statusIcon",
+    "status_icon": "../sources/get/$statusIcon",
     "update_time": "monthly",
     "img_link": "https://get.varia.org.cn/pd/local/$imageLink",
     "ota_link": "https://get.varia.org.cn/pd/local/$otaLink",
