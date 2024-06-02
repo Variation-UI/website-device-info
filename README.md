@@ -22,7 +22,7 @@ And the punctuation and capitalization formatting should not be changed.
     "build_time": "May 15, 2024",
     "status": "$status",
     "status_icon": "../sources/get/$statusIcon",
-    "update_time": "monthly",
+    "update_time": "Monthly",
     "img_link": "https://get.varia.org.cn/pd/local/$imageLink",
     "ota_link": "https://get.varia.org.cn/pd/local/$otaLink",
     "img_md5": "$md5",
